@@ -3,7 +3,7 @@ import AceEditor from "react-ace";
 import { Button } from 'react-bootstrap';
 import "ace-builds/src-noconflict/mode-java";
 import "ace-builds/src-noconflict/theme-solarized_dark";
-import TimeoutExample from  './';
+import TimeoutExample from  './timer';
 
 
 
@@ -55,7 +55,7 @@ export default function Exercise() {
     
    
 	return (
-	  <>
+	  <><TimeoutExample/>
 	    <h1>Exercises</h1>
 	  <hr/><br/>
 		{exercises.length &&
